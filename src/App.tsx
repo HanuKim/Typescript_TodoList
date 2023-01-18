@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import TodoList from "./components/TodoList";
 import TodoListForm from "./components/TodoListItemForm";
 import Item from "./models/item";
-import { v4 as getId, v4 } from "uuid";
-import styled from "styled-components";
+import { v4 as getId } from "uuid";
 import "./App.css";
 
 function App() {
